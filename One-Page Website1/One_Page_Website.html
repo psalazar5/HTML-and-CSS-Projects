@@ -5,6 +5,7 @@
     <title>Motiv8WellBeing|Coaching</title>
     <link rel="stylesheet" href="./CSS/shared.css" />
     <link rel="stylesheet" href="./CSS/animations.css" />
+    <link rel="stylesheet" href="./CSS/lightbox.css"
   </head>
   <body>
     <!-- NAV -->
@@ -164,6 +165,76 @@
     </section>
     <!-- END GALLERY -->
 
+    
+    <body>
+
+      <h1 style="text-align:center">Activities</h1>
+      
+      <div class="row">
+        <div class="column">
+          <img src="./Images/workout.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./Images/calisthenics.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./Images/groupactivities.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./Images/R.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="./Images/workout.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="./Images/calisthenics.jpg" style="width:100%" >
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="./Images/groupactivities.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="./Images/R.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="./Images/workout.jpg" style="width:100%" onclick="currentSlide(1)" alt="Stretches before workout">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./Images/calisthenics.jpg" style="width:100%" onclick="currentSlide(2)" alt="Calisthenics Training">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./Images/groupactivities.jpg" style="width:100%" onclick="currentSlide(3)" alt="Group activities">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./Images/R.jpg" style="width:100%" onclick="currentSlide(4)" alt="Jogging">
+          </div>
+        </div>
+      </div>
+      
+
+
+
     <!-- RSVP -->
     <section id="contact">
       <div class="container">
@@ -225,5 +296,6 @@
       www.Motiv8WellBeing.coaching &nbsp;|&nbsp; &copy; 2023
     </div>
     <!-- END FOOTER -->
+    <script src="./JavaScript/onepagewebsite.js" defer></script>
   </body>
 </html>
