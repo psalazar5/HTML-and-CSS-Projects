@@ -1,0 +1,178 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 525px;
+  width: 600px;
+  opacity: 75%;
+  filter: brightness(80%);
+  border: 10px solid black;
+  border-radius: 50px;
+  padding: 10px;
+}
+#footer,
+p {
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+  background-color: darkblue;
+  color: Yellow;
+}
+#footer a {
+  color: Yellow;
+}
+
+.content-table tr,
+th,
+td {
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  padding: 8px;
+}
+.content-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.content-table td,
+.content-table tr {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(n-4) {
+  background-color: #f2f2f2;
+}
+
+td:hover {
+  background-color: #acacac;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #008cba;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  text-align: center;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body p:hover {
+  color: #333;
+}
+
+.hover {
+  float: center;
+  position: relative;
+  width: 100%;
+}
+
+.center {
+  display: block;
+  width: 20%;
+  height: auto;
+}
+
+.overlay {
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  z-index: 5;
+  background: #008cba;
+}
+
+.hover:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+video {
+  height: 500px;
+  width: 500px;
+}
+
+.mp4 {
+  text-align: center;
+}
+
+.ocean-view {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-25%, -25%);
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .column p {
+    color: red;
+  }
+}
