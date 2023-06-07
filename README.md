@@ -1,32 +1,21 @@
 # HTML-and-CSS-Projects
+These are my projects inside this repository indicating my work throughout the course time of my Tech Academy Bootcamp. 
 
-<h1>JavaScript</h1>
-These are small projects I made using JavaScript html and css.
+<h1> Projects: </h1>
 
-<h1>Projects</h1>
-<ul>
-<li>Pizza-Menu</li>
-<li>Tic-tac-toe Game</li>
-<li>Calculator</li>
-</ul>
+<li> Used bootstrap to make <a href= "https://github.com/psalazar5/HTML-and-CSS-Projects/tree/main/bootstrap"> cinemas theatre showtime webpage! </a>  </li>
 
-<<<<<<< HEAD
-<h2>Pizza-menu</h2>
-<hr>
-<p>This project is a menu used to order pizza. It contains various selections of toppings with sizes from personal to xl <br>
-It then takes the input information and calculates the price for the order</p>
+<li><a href= "https://github.com/psalazar5/HTML-and-CSS-Projects/tree/main/One-Page%20Website1"> A webpage about me ! </a> </li>
 
-<h2>Tic-tac-toe Game</h2>
-<hr>
-<p>This is a classic tic-tac-toe game. Randomly rolls dice to select which of the two players goes first.<br>
- Users can decide which token each player wants to use. <br>
- The winner is celebrated with music and flashing lights with the line going through the winners O or X.</p>
+<li> Rollover Menu:  <a href= "https://github.com/psalazar5/HTML-and-CSS-Projects/tree/main/Creating-a-CSS-menu/CSS"> CSS Menu </a> </li>
 
- <h2>Calculator</h2>
- <p>Basic 4 function calculator. Uses multiplication, division, subtraction and addition on a sleek web version calculator.</p>
-=======
-My one page website displays my workout page and has basic HTML and CSS.
-My final project is an about me and is my final project for The Tech Academy bootcamp displaying more HTML and CSS work.
+<li>Mini webpage : <a href= "https://github.com/psalazar5/HTML-and-CSS-Projects/tree/main/01_Lesson"> here </a> </li>
 
 
->>>>>>> a9c10c8887cda0e05819a88e655f33e8cbf5e883
+
+
+
+
+<h1> My time throughout the course: </h1>
+
+Throughout the course I learned a tremendous amount of knowledge and projects to still be continued. The learning experience brought a lot of significence throughout this training course as I developed fundamental knowledge on how the front end works and managed to help a lot of my knowledge in using the backend frameworks such as Asp.Net, C# and much more feature that I learned throughout the courses. 
