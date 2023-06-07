@@ -10,6 +10,7 @@ These are small projects I made using JavaScript html and css.
 <li>Calculator</li>
 </ul>
 
+<<<<<<< HEAD
 <h2>Pizza-menu</h2>
 <hr>
 <p>This project is a menu used to order pizza. It contains various selections of toppings with sizes from personal to xl <br>
@@ -23,3 +24,9 @@ It then takes the input information and calculates the price for the order</p>
 
  <h2>Calculator</h2>
  <p>Basic 4 function calculator. Uses multiplication, division, subtraction and addition on a sleek web version calculator.</p>
+=======
+My one page website displays my workout page and has basic HTML and CSS.
+My final project is an about me and is my final project for The Tech Academy bootcamp displaying more HTML and CSS work.
+
+
+>>>>>>> a9c10c8887cda0e05819a88e655f33e8cbf5e883
